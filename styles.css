@@ -463,6 +463,14 @@ h1.categories-header {
   a.navbar-brand {
     padding-left: 20%;
   }
+  .pro-text {
+    padding-right: 10px;
+  }
+
+  #product-container {
+    background-color: #f3faff;
+    height: 800px;
+  }
 }
 
 ul.nav {
@@ -472,4 +480,8 @@ ul.nav {
 .navbar {
   background-color: transparent;
   position: absolute;
+}
+
+.pro-text {
+  padding-right: 20px;
 }
