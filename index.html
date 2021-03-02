@@ -12,46 +12,49 @@
       crossorigin="anonymous"
     />
     <link href="./styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
   </head>
   <body>
     <header>
         <!-- navbar -->
 
-      <nav class="navbar sticky-top navbar-light bg-transparent">
-        <div class="container-fluid" id="nav-container">
-          <div class="row" id="navRow">
-            <div class="col">
-              <a class="navbar-brand" href="#">               
-                 <img src="images/Asset 12.png" style="height: 65px; width: 220px;" class="img-fluid ">
-              </a>
+        <nav class="navbar sticky-top navbar-light bg-transparent">
+            <div class="container-fluid" id="nav-container">
+              <div class="row" id="navRow">
+                <div class="col">
+                  <a class="navbar-brand" href="#">               
+                     <img src="images/Asset 12.png" style="height: 65px; width: 220px;" class="img-fluid ">
+                  </a>
+                </div>
+                <div class="col">
+                  <ul class="nav justify-content-center" dir="rtl">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">דף הבית</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">אודותינו</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">חנות</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">קורסים</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">צור/י קשר</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">התחברות</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="col">
-              <ul class="nav justify-content-center" dir="rtl">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">דף הבית</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">אודותינו</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">חנות</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">קורסים</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">צור/י קשר</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">התחברות</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
+          </nav>
       <!-- navbar end -->
      </header>
     <!-- main section -->
@@ -70,7 +73,7 @@
           <div class="col-sm col-lg-4" dir="rtl">
             <h1 class="top-products-header">מוצרים מובילים</h1>
           </div>
-          <div class="col-sm col-lg-8" dir="rtl">
+          <div class="col-sm-12 col-lg-8" dir="rtl">
             <ul class="top-products">
               <li class="product-list">01<P>100% QUALITY<br>כל מוצרי החנות הינם באיכות גבוהה<br>מוצרים מקוריים מאיטליה</p></li>
               <li class="product-list">02<p>NATURAL<br>המוצרים לא נוסו על בעלי חיים<br>והינם 100% טבעוניים</br></li>
@@ -79,25 +82,260 @@
             </ul>
           </div>
         </div>
-        <div class="row">
-            <div class="owl-carousel">
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
+    <div class="row">
+        <div class="col-lg-9 col-sm-12">
+            <!-- Carousel wrapper -->
+        <div
+          id="carouselMultiItemExample"
+          class="carousel slide carousel-dark text-center"
+          data-mdb-ride="carousel"
+        >
+         
+          <!-- Inner -->
+          <div class="carousel-inner py-4">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <div class="container" id="carousel-container">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+        
+                  <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                    <div class="card">
+                      <img
+                        src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                    </img>
+                    </div>
+                    <div class="card-text">
+                        <p>שם המוצר</p>
+                        <p>₪ 150</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                    <div class="card">
+                      <img
+                        src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                    </img>
+                    </div>
+                    <div class="card-text">
+                        <p>שם המוצר</p>
+                        <p>₪ 150</p>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                    <div class="card">
+                      <img
+                        src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                    </img>
+                    </div>
+                    <div class="card-text">
+                        <p>שם המוצר</p>
+                        <p>₪ 150</p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+        
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+        
+                      <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+        
+                      <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Single item -->
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+        
+                      <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                        <div class="card">
+                          <img
+                            src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                        </img>
+                        </div>
+                        <div class="card-text">
+                            <p>שם המוצר</p>
+                            <p>₪ 150</p>
+                        </div>
+                      </div>
+        
+                  <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                    <div class="card">
+                      <img
+                        src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                    </img>
+                    </div>
+                    <div class="card-text">
+                        <p>שם המוצר</p>
+                        <p>₪ 150</p>
+    
+                    </div>
+                   
+                  </div>
+                  <div class="col-lg-3 mb-4 mb-lg-0 d-none d-lg-block">
+                    <div class="card">
+                      <img
+                        src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                    </img>
+                    </div>
+                    <div class="card-text">
+                        <p>שם המוצר</p>
+                        <p>₪ 150</p>
+    
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Inner -->
+          <!-- Controls -->
+  <div class="d-flex justify-content-start mb-4">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+        </div>
+        
+        <!-- Carousel wrapper -->
+    </div>
+    <div class="col-lg-3"></div>
       </div>
-      </div>
-      <!-- product section --> end
+     </div>
+      <!-- product section --> 
+
 
       <!-- Featured item section -->
     <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
         <div class="row feature-item">
           <div
-            class="col-lg-7 col-xs-12 aos-init aos-animate" id="product-img"
+            class="col-lg-7 col-xs-6 aos-init aos-animate" id="product-img"
             data-aos="fade-right"
             data-aos-delay="100">
             <img src="images/product1.png" class="img-fluid" alt="" />
@@ -106,134 +344,171 @@
             data-aos-delay="150">
             <h4>תיאור הקורס</h4>
             <p>
-                לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף..
+                לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית מוסן מנת. להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורך. צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.
             </p>
+            <button style="text-decoration: none; background-color: white; ">ראה עוד</button>
           </div>
           </div>
            <div
-            class="col-lg-5  col-xs-12 aos-init aos-animate"
+            class="col-lg-5  col-xs-6 aos-init aos-animate"
             data-aos="fade-right"
             data-aos-delay="100">
           <h2 class="course-header" dir="rtl">קורסים למתחילות</h2>
         </div>
         </div>
         <div class="row feature-item">
-            <div dir="rtl" class="col-lg-1"></div>
-          <div
-            class="col-lg-4 wow fadeInUp order-1 order-lg-2 aos-init"
-            data-aos="fade-left"
-            data-aos-delay="100">
-            <img src="images/product2.png" class="img-fluid2" alt="" />
-          </div>
+            <div dir="rtl" class="col-lg-1 col-xs-0"></div>
+         
           <div id="explanation2" dir="rtl"
-          class="col-lg-3 wow fadeInUp pt-5 pt-lg-0 aos-init aos-animate"
+          class="col-lg-3 col-xs-12"
           data-aos="fade-left"
           data-aos-delay="150">
           <h4>תיאור הקורס</h4>
           <p>
-            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף..
+            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית מוסן מנת. להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורך. צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.
           </p>
         <button style="text-decoration: none; background-color: white; ">ראה עוד</button>
         </div>
+        
           <div
-            class="col-lg-4 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1 aos-init"
+            class="col-lg-4 col-xs-6"
             data-aos="fade-right"
             data-aos-delay="150" >
             <h2 class="course-header" dir="rtl">קורסים למתקדמות</h2>
           </div>
+          <div
+          class="col-lg-4 col-xs-12"
+          data-aos="fade-left"
+          data-aos-delay="100">
+          <img src="images/product2.png" class="img-fluid2" alt="" />
         </div>
-      </div>
+        </div>
+    
             <!-- Featured item section end -->
 
-          <!-- categories section -->
-         <div class="container" id="categories-main">
-             <h1 class="categories-header">CATEGORIES</h1>
-             <div class="vl2"></div>
-                <div class="row" id="categories">
-                 <div class="col-lg-4" id="side-col">
-                     <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                       <div class="img-header">
-                         <p>ג׳ל לבנייה</p>
-                          <h2>OVERGEL</h2>
-                          <p>ראה עוד</p>
-                    </div>
-                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
-              </a>
-              <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+            <div class="container-fluid" id="categories-main">
+                <h1 class="categories-header">CATEGORIES</h1>
+                <div class="vl2"></div>
+                   <div class="row" id="categories">
+                    <div class="col-lg-4" id="side-col">
+                        <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                          <div class="img-header">
+                            <p>ג׳ל לבנייה</p>
+                             <h2>OVERGEL</h2>
+                             <p>ראה עוד</p>
+                       </div>
+                   <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+                 </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                   <div class="img-header">
+                       <p>כלי עבודה מתכתיים</p>
+                       <h2>ACCESORIES</h2>
+                       <p>ראה עוד</p>
+               </div>
+                   <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+                 </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                   <div class="img-header">
+                       <p> מכחולים ומברשות</p>
+                       <h2>BRUSHES</h2>
+                       <p>ראה עוד</p>
+                           </div>
+                   <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+                 </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <div class="img-header">
+                        <p>פצירות</p>
+                        <h2>NAIL FILES</h2>
+                        <p>ראה עוד</p>
+                            </div>
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                  </a>
+               </div>
+               <div class="col-lg-4">
+                <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <div class="img-header">
+                        <p>אבקות אקריל צבעוניות
+                        </p>
+                        <h2>ACRYLIC POWDER</h2>
+                        <p>ראה עוד</p>
+                            </div>
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                  </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                   <div class="img-header">
+                       <p>לק ג׳ל</p>
+                       <h2>OVERLAC</h2>
+                       <p>ראה עוד</p>
+                           </div>
+                   <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                 </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <div class="img-header">
+                        <p>ציוד חשמלי</p>
+                        <h2>ELECTRIC MATERIAL</h2>
+                        <p>ראה עוד</p>
+                            </div>
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+                  </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                   <div class="img-header">
+                       <p>ציוד נלווה</p>
+                       <h2>ACCESORIES</h2>
+                       <p>ראה עוד</p>
+                           </div>
+                   <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+                 </a>
+                 <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                   <div class="img-header">
+                       <p>נייל ארט</p>
+                       <h2>NAIL ART</h2>
+                       <p>ראה עוד</p>
+                           </div>
+                   <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+                 </a>
+           </div>
+           <div class="col-lg-4" id="side-col">
+            <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
                 <div class="img-header">
-                    <p>ג׳ל לבנייה</p>
-                    <h2>OVERGEL</h2>
-                    <p>ראה עוד</p>
-            </div>
-                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
-              </a>
-              <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                <div class="img-header">
-                    <p>ג׳ל לבנייה</p>
-                    <h2>OVERGEL</h2>
-                    <p>ראה עוד</p>
-                        </div>
-                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                <div class="img-header">
-                    <p>ג׳ל לבנייה</p>
-                    <h2>OVERGEL</h2>
+                    <p>בייסים וטופים</p>
+                    <h2>BASE & TOP</h2>
                     <p>ראה עוד</p>
                         </div>
                 <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
               </a>
-              <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                <div class="img-header">
-                    <p>ג׳ל לבנייה</p>
-                    <h2>OVERGEL</h2>
-                    <p>ראה עוד</p>
-                        </div>
-                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-              </a>
-              <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                <div class="img-header">
-                    <p>ג׳ל לבנייה</p>
-                    <h2>OVERGEL</h2>
-                    <p>ראה עוד</p>
-                        </div>
-                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-              </a>
-        </div>
-        <div class="col-lg-4" id="side-col">
-            <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-              <div class="img-header">
-                  <p>ג׳ל לבנייה</p>
-                  <h2>OVERGEL</h2>
-                  <p>ראה עוד</p>
-                      </div>
-              <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
-            </a>
-            <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-              <div class="img-header">
-                  <p>ג׳ל לבנייה</p>
-                  <h2>OVERGEL</h2>
-                  <button>ראה עוד</button>
-                      </div>
-              <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
-            </a>
-            <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-              <div class="img-header">
-                  <p>ג׳ל לבנייה</p>
-                  <h2>OVERGEL</h2>
-                  <p>ראה עוד</p>
-                      </div>
-              <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
-            </a>
-            </div>
-            </div>
-          </div>
+               <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                 <div class="img-header">
+                     <p> פריימרים ונוזלים</p>
+                     <h2>PRIMERS</h2>
+                     <p>ראה עוד</p>
+                         </div>
+                 <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+               </a>
+               <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                 <div class="img-header">
+                     <p> צבע ג׳ל </p>
+                     <h2>GEL COLORS</h2>
+                     <button>ראה עוד</button>
+                         </div>
+                 <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
+               </a>
+               <a class="catagories-image" href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                 <div class="img-header">
+                     <p>ראשי שיוף</p>
+                     <h2>SANDING HEADS</h2>
+                     <p>ראה עוד</p>
+                         </div>
+                 <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
+               </a>
+               </div>
+               </div>
+             </div>
         <!-- categories section end -->
-      
-        <!-- Main section end -->
+    </div>
+    </div>
 
+        <!-- Main section end -->
+  </body>
     <script src="main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -241,6 +516,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-  </body>
-</html>
+   <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+  ></script>
+    </html>
