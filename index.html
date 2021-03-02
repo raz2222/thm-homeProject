@@ -76,13 +76,13 @@
           <div class="col-sm-12 col-lg-8" dir="rtl">
             <ul class="top-products">
               <li class="product-list">01<P>100% QUALITY<br>כל מוצרי החנות הינם באיכות גבוהה<br>מוצרים מקוריים מאיטליה</p></li>
-              <li class="product-list">02<p>NATURAL<br>המוצרים לא נוסו על בעלי חיים<br>והינם 100% טבעוניים</br></li>
-              <li class="product-list">03<p>באישור משרד הבריאות<br>כל המוצרים עברו פיקוח<br>ואימות מטעם משרד הבריאות</br></li>
-              <li class="product-list">04<p>מוצרים מקוריים מאיטליה<br>כל מוצרי החנות מיוצרים<br>ומיובאים מאיטליה</br></li>
+              <li class="product-list">02<p>NATURAL<br>המוצרים לא נוסו על בעלי חיים<br>והינם 100% טבעוניים</br></p></li>
+              <li class="product-list">03<p>באישור משרד הבריאות<br>כל המוצרים עברו פיקוח<br>ואימות מטעם משרד הבריאות</br></p></li>
+              <li class="product-list">04<p>מוצרים מקוריים מאיטליה<br>כל מוצרי החנות מיוצרים<br>ומיובאים מאיטליה</br></p></li>
             </ul>
           </div>
         </div>
-    <div class="row">
+    <div class="row" id="carousel">
         <div class="col-lg-9 col-sm-12">
             <!-- Carousel wrapper -->
         <div
@@ -325,16 +325,16 @@
         
         <!-- Carousel wrapper -->
     </div>
-    <div class="col-lg-3"></div>
+    <div class="col-lg-3 col-sm-0"></div>
       </div>
      </div>
       <!-- product section --> 
 
 
       <!-- Featured item section -->
-    <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
-        <div class="row feature-item">
-          <div
+    <div class="container-fluid aos-init aos-animate" data-aos="fade-up" id="featured-container">
+        <div class="row feature-item" id="#featured-item1">
+            <div
             class="col-lg-7 col-xs-6 aos-init aos-animate" id="product-img"
             data-aos="fade-right"
             data-aos-delay="100">
@@ -350,15 +350,16 @@
           </div>
           </div>
            <div
-            class="col-lg-5  col-xs-6 aos-init aos-animate"
+            class="col-lg-5  col-xs-6 aos-init aos-animate hidden-xs"
             data-aos="fade-right"
             data-aos-delay="100">
           <h2 class="course-header" dir="rtl">קורסים למתחילות</h2>
         </div>
         </div>
         <div class="row feature-item">
+            
             <div dir="rtl" class="col-lg-1 col-xs-0"></div>
-         
+
           <div id="explanation2" dir="rtl"
           class="col-lg-3 col-xs-12"
           data-aos="fade-left"
@@ -383,7 +384,7 @@
           <img src="images/product2.png" class="img-fluid2" alt="" />
         </div>
         </div>
-    
+    </div>
             <!-- Featured item section end -->
 
             <div class="container-fluid" id="categories-main">
