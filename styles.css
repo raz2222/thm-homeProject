@@ -6,7 +6,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 /*  html, body end */
 
@@ -70,9 +69,10 @@ a.navbar-brand {
 }
 
 li.nav-item:hover {
-  background-color: aqua;
+  background-color: #fff;
   background-size: 0px !important;
   transition: ease-in 0.5s;
+  color: black;
 }
 
 .navbar {
@@ -410,7 +410,7 @@ h1.categories-header {
   }
 
   #categories-main {
-    margin-top: 1100px;
+    margin-top: 1350px;
   }
   .vl2 {
     border-left: 1px solid black;
@@ -420,7 +420,7 @@ h1.categories-header {
   }
 
   #explanation2 {
-    margin-top: 500px;
+    margin-top: 600px;
     padding: 50px;
   }
 
@@ -471,6 +471,23 @@ h1.categories-header {
     background-color: #f3faff;
     height: 800px;
   }
+
+  h2.course-header {
+    display: none;
+  }
+
+  h2.course-header-mobile {
+    padding: 50px 50px 0px 50px;
+    font-size: 50px;
+  }
+  h2#mobile2 {
+    padding: 0px 0px 50px 0px;
+  }
+
+  .img-fluid2 {
+    height: 500px;
+    width: 100%;
+  }
 }
 
 ul.nav {
@@ -484,4 +501,10 @@ ul.nav {
 
 .pro-text {
   padding-right: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  h2.course-header-mobile {
+    display: none;
+  }
 }
