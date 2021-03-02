@@ -170,7 +170,7 @@ img.product-image {
 h2.course-header {
   font-size: 50px;
   text-align: center;
-  padding-top: 135px;
+  padding-top: 125px;
 }
 
 #explanation2 {
@@ -469,7 +469,7 @@ h1.categories-header {
 
   #product-container {
     background-color: #f3faff;
-    height: 800px;
+    height: 1000px;
   }
 
   h2.course-header {
@@ -487,6 +487,9 @@ h1.categories-header {
   .img-fluid2 {
     height: 500px;
     width: 100%;
+  }
+  .box {
+    display: none;
   }
 }
 
@@ -507,4 +510,12 @@ ul.nav {
   h2.course-header-mobile {
     display: none;
   }
+}
+
+.box {
+  height: 100px;
+  width: 590px;
+  position: absolute;
+  margin-left: 850px;
+  background-color: #f3faff;
 }
