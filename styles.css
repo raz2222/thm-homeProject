@@ -394,6 +394,10 @@ h1.categories-header {
 }
 
 @media only screen and (max-width: 600px) {
+  #carousel {
+    display: none;
+  }
+
   #product-img {
     display: flex;
     flex-direction: column-reverse;
@@ -406,7 +410,7 @@ h1.categories-header {
   }
 
   #featured-container {
-    margin-top: 500px;
+    margin-top: 20px;
   }
 
   #categories-main {
@@ -493,6 +497,23 @@ h1.categories-header {
   }
 }
 
+@media only screen and (max-width: 990px) {
+  .box {
+    display: none;
+  }
+  #product-img {
+    padding-top: 200px;
+  }
+  #carousel {
+    display: none;
+  }
+}
+@media only screen and (min-width: 990px) {
+  #carousel-mobile {
+    display: none;
+  }
+}
+
 ul.nav {
   padding: 0;
 }
@@ -506,8 +527,12 @@ ul.nav {
   padding-right: 20px;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 992) {
   h2.course-header-mobile {
+    display: none;
+  }
+
+  #carousel {
     display: none;
   }
 }
