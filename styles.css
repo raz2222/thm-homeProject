@@ -494,6 +494,9 @@ h1.categories-header {
   .box {
     display: none;
   }
+  ul.top-products {
+    padding: 0px 40px 0px 40px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -511,6 +514,12 @@ h1.categories-header {
 @media only screen and (min-width: 990px) {
   #carousel-mobile {
     display: none;
+  }
+  h2.course-header {
+    padding-top: 50px;
+  }
+  #course-header-2 {
+    padding-top: 150px;
   }
 }
 
