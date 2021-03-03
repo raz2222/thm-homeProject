@@ -170,7 +170,6 @@ img.product-image {
 h2.course-header {
   font-size: 50px;
   text-align: center;
-  padding-top: 125px;
 }
 
 #explanation2 {
@@ -501,11 +500,12 @@ h1.categories-header {
   .box {
     display: none;
   }
-  #product-img {
-    padding-top: 200px;
-  }
+
   #carousel {
     display: none;
+  }
+  ul.top-products {
+    padding: 0px 20px 0px 20px;
   }
 }
 @media only screen and (min-width: 990px) {
